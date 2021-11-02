@@ -69,21 +69,19 @@ padding: 20px;
 
 
 
-
+/*footer section*/
   
-  main{
+main{
     display: flex;
     background-color: aquamarine;
   }
-  #location{
+#location{
       flex-grow: 1;
-      padding-left: 40%;
+      padding-left: 30%;
       
   }
-  #three{
-      flex-grow: 1;
-  }
-  #socials{
+ 
+#socials{
       flex-grow: 2;
       position: relative;
       padding-left: 40%;
@@ -93,4 +91,21 @@ padding: 20px;
     
     text-align: center;
     border-radius: 20px;
+}
+
+input[type="text"]{
+    border-radius: 25px 0 0 25px;
+    height: 44px;
+    width: 300px;
+    
+}
+
+
+input[type="submit"]{
+ border-radius: 0 25px 25px 0;
+ left: -6px;
+ position: relative;
+ background-color: orange;
+ height: 50px;
+ width: 100px;
 }
